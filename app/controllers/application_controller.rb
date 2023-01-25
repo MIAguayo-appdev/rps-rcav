@@ -14,7 +14,6 @@ def play_rock
     #render({:html=>"<h1>Hello,World!</h1>"})  ### if you dont include html safe it renders the character as they are
     
     #render({:html=>"<h1>Hello,World!</h1>".html_safe})
-   
     render({:template => "game_templates/user_rock.html.erb"})
 
   end
